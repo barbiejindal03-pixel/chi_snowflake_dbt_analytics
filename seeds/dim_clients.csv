@@ -1,0 +1,76 @@
+client_id,intake_date,gender,age_bucket,employment_status,work_interest,job_goal,has_resume,document_readiness_score
+CLIENT-047,2026-01-07,Female,50-65,No,Office,Find a new job,no,0
+CLIENT-059,2026-01-07,Male,35-50,No,"Customer Service, Other",Find a new job,yes,3
+CLIENT-024,2026-01-07,Male,35-50,No,Unspecified,Find a new job,yes,2
+CLIENT-074,2026-01-09,Female,under 25,Unknown,Unspecified,Unspecified,Unknown,0
+CLIENT-066,2026-01-09,Unknown,under 25,Unknown,Unspecified,Unspecified,Unknown,0
+CLIENT-037,2026-01-14,Male,35-50,Yes- part time,Other,Find a new job,yes,1
+CLIENT-038,2026-01-14,Male,50-65,No,"Food Service, Healthcare Support, Other",Find a new job,no,3
+CLIENT-005,2026-01-14,Female,35-50,No,Not sure yet,Find a new job,no,3
+CLIENT-004,2026-01-14,Female,under 25,No,"Retail, Customer Service",Find my first job,no,3
+CLIENT-041,2026-01-14,Female,35-50,No,"Retail, Not sure yet",Find a new job,no,3
+CLIENT-046,2026-01-14,Female,25-35,No,Healthcare Support,Find a new job,no,0
+CLIENT-068,2026-01-14,Male,25-35,No,Not sure yet,Find a new job,no,1
+CLIENT-057,2026-01-14,Male,50-65,No,Skilled Trades,Return to work after a break,no,0
+CLIENT-069,2026-01-21,Male,50-65,No,Other,Find a new job,no,3
+CLIENT-075,2026-01-21,Male,35-50,Temporary- gig work,"Retail, Food Service, Office, Customer Service, Healthcare Support, Skilled Trades, Other",Explore career options like training and education,yes,2
+CLIENT-011,2026-01-21,Male,50-65,No,"Office, Customer Service",Find a new job,No,2
+CLIENT-032,2026-01-28,Male,50-65,No,Other,Find a new job,no,3
+CLIENT-070,2026-01-28,Male,35-50,Temporary- gig work,"Retail, Food Service, Office, Customer Service",Explore career options like training and education,yes,2
+CLIENT-002,2026-01-28,Male,50-65,No,"Food Service, Skilled Trades, Other",Return to work after a break,yes,3
+CLIENT-020,2026-01-28,Male,50-65,No,Healthcare Support,Find a new job,no,2
+CLIENT-021,2026-02-11,Female,50-65,No,Unspecified,Unspecified,no,1
+CLIENT-043,2026-02-11,Male,25-35,No,"Retail, Skilled Trades",Find a new job,yes,3
+CLIENT-034,2026-02-17,Male,25-35,No,Food Service,Find a new job,yes,1
+CLIENT-029,2026-02-18,Male,35-50,No,"Food Service, Office, Skilled Trades",Return to work after a break,no,1
+CLIENT-036,2026-02-18,Male,50-65,No,"Healthcare Support, Skilled Trades, Other",Find a new job,no,1
+CLIENT-031,2026-02-18,Male,35-50,No,Food Service,Return to work after a break,no,1
+CLIENT-052,2026-02-18,Male,50-65,No,"Food Service, Customer Service",Return to work after a break,no,2
+CLIENT-044,2026-02-25,Female,35-50,No,"Retail, Food Service, Office, Customer Service",Return to work after a break,yes,3
+CLIENT-071,2026-03-04,Female,50-65,Yes- part time,"Food Service, Healthcare Support, Other",Find my first job,yes,0
+CLIENT-016,2026-03-04,Female,50-65,Temporary- gig work,Office,Return to work after a break,yes,3
+CLIENT-014,2026-03-04,Male,50-65,No,"Retail, Food Service, Office, Customer Service, Healthcare Support, Skilled Trades, Other",Find a new job,yes,3
+CLIENT-072,2026-03-04,Male,50-65,No,Other,Return to work after a break,no,3
+CLIENT-061,2026-03-11,Male,35-50,No,"Retail, Food Service, Office, Customer Service, Skilled Trades",Find a new job,yes,1
+CLIENT-033,2026-03-11,Female,50-65,Yes- part time,"Retail, Food Service, Healthcare Support, Other",Find a new job,yes,2
+CLIENT-053,2026-03-18,Male,35-50,No,"Food Service, Skilled Trades, Other",Explore career options like training and education,no,1
+CLIENT-073,2026-03-25,Male,Older than 65,No,"Skilled Trades, Other",Return to work after a break,yes,2
+CLIENT-003,2026-03-25,Male,25-35,No,Food Service,Find a new job,no,2
+CLIENT-049,2026-04-01,Male,35-50,No,"Retail, Customer Service, Other",Find a new job,yes,3
+CLIENT-060,2026-04-01,Male,25-35,No,"Retail, Food Service",Find a new job,no,1
+CLIENT-010,2026-04-08,Male,35-50,No,Not sure yet,Find a new job,no,3
+CLIENT-022,2026-04-08,Male,35-50,No,"Retail, Food Service, Customer Service",Return to work after a break,yes,3
+CLIENT-055,2026-04-08,Male,25-35,No,"Retail, Food Service",Return to work after a break,yes,3
+CLIENT-039,2026-04-08,Male,50-65,Yes- full time,"Food Service, Customer Service",Find a new job,no,2
+CLIENT-009,2026-04-15,Female,35-50,No,"Customer Service, Not sure yet",Explore career options like training and education,no,3
+CLIENT-054,2026-04-15,Male,35-50,No,"Skilled Trades, Food services",Find a new job ,no,2
+CLIENT-056,2026-04-22,Female,50-65,No,Not sure yet,Find a new job,yes,3
+CLIENT-001,2026-04-29,Male,50-65,No,"Food Service, Other",Return to work after a break,no,2
+CLIENT-042,2026-04-29,Female,35-50,Yes- full time,Food Service,Find a new job,yes,3
+CLIENT-035,2026-05-06,Male,35-50,No,Other,Unspecified,no,1
+CLIENT-017,2026-05-06,Male,35-50,No,"Retail, Food Service, Office, Customer Service, Healthcare Support, Skilled Trades",Find a new job,yes,3
+CLIENT-028,2026-05-13,Male,35-50,No,"Retail, Food Service, Skilled Trades",Return to work after a break,yes,2
+CLIENT-023,2026-05-27,Male,35-50,No,"Food Service, Skilled Trades, Other",Find a new job,yes,0
+CLIENT-018,2026-06-03,Male,35-50,No,Other,Find a new job,yes,1
+CLIENT-045,2026-06-03,Male,50-65,No,Customer Service,Explore career options like training and education,no,0
+CLIENT-067,2026-06-10,Male,25-35,Yes- full time,Skilled Trades,Find my first/new job,no,3
+CLIENT-015,2026-06-10,Male,35-50,No,"Retail, Skilled Trades",Find my first/new job,no,2
+CLIENT-025,2026-06-24,Female,25-35,No,Not sure yet,Find my first/new job,no,2
+CLIENT-013,2026-06-24,Male,25-35,No,Other,Return to work after a break,yes,3
+CLIENT-030,2026-06-24,Male,35-50,No,"Retail, Food Service, Office, Customer Service",Return to work after a break,yes,3
+CLIENT-006,2026-06-24,Female,50-65,No,Other,Explore career options like training and education,yes,3
+CLIENT-008,2026-06-24,Female,25-35,No,Not sure yet,Find my first/new job,no,2
+CLIENT-051,2026-07-01,Male,35-50,No,Other,Find my first/new job,no,3
+CLIENT-040,2026-07-01,Male,50-65,Yes- part time,"Retail, Office, Customer Service, Healthcare Support, Skilled Trades, Other",Find my first/new job,no,3
+CLIENT-019,2026-07-01,Male,25-35,No,Other,Return to work after a break,yes,1
+CLIENT-026,2026-07-08,Male,50-65,No,Other,Find my first/new job,no,3
+CLIENT-012,2026-07-08,Male,35-50,No,Other,Find my first/new job,no,2
+CLIENT-027,2026-07-08,Male,under 25,No,Retail,Find my first/new job,no,2
+CLIENT-064,2026-07-15,Male,50-65,No,Other,Return to work after a break,no,3
+CLIENT-063,2026-07-22,Male,50-65,No,Other,Find my first/new job,no,3
+CLIENT-048,2026-07-22,Male,Older than 65,No,Not sure yet,Find my first/new job,no,1
+CLIENT-050,2026-08-12,Female,35-50,No,"Food Service, Other",Find my first/new job,no,3
+CLIENT-007,2026-08-19,Male,50-65,No,Skilled Trades,Return to work after a break,no,3
+CLIENT-058,2026-08-19,Male,35-50,No,Other,Return to work after a break,no,3
+CLIENT-065,2026-08-26,Female,35-50,No,"Retail, Food Service, Office, Customer Service, Other",Find my first/new job,yes,3
+CLIENT-062,2026-08-26,Male,35-50,No,Skilled Trades,Find my first/new job,no,2

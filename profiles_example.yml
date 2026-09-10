@@ -1,0 +1,18 @@
+# Example ~/.dbt/profiles.yml for connecting this project to Snowflake.
+# Copy this to ~/.dbt/profiles.yml (or merge it in) and fill in your own
+# account details. NEVER commit real credentials to GitHub -- profiles.yml
+# lives outside the project folder for exactly this reason.
+
+chi_program_analytics:
+  target: dev
+  outputs:
+    dev:
+      type: snowflake
+      account: your_account_identifier      # e.g. ab12345.us-east-1
+      user: your_username
+      password: your_password               # or use `authenticator: externalbrowser` for SSO
+      role: ACCOUNTADMIN                    # fine for a solo trial account
+      database: CHI_ANALYTICS
+      warehouse: COMPUTE_WH                 # the default warehouse on a trial account
+      schema: ANALYTICS
+      threads: 4

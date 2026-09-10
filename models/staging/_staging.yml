@@ -1,0 +1,78 @@
+version: 2
+
+seeds:
+  - name: dim_clients
+    description: >
+      Anonymized client intake data from CHI's Job Room / Workplace Support
+      Center. Client IDs are re-issued and shuffled from the source system;
+      names, emails, phone numbers, and addresses were removed before this
+      data ever left the source spreadsheet. Identity-document flags (SS
+      card / birth certificate / state ID) are collapsed into a single
+      document_readiness_score so no individual document status is queryable
+      per person.
+    columns:
+      - name: client_id
+        data_tests:
+          - unique
+          - not_null
+      - name: document_readiness_score
+        data_tests:
+          - accepted_values:
+              values: [0, 1, 2, 3]
+              quote: false
+
+  - name: fact_visits
+    description: Anonymized visit log -- one row per client visit.
+    columns:
+      - name: visit_id
+        data_tests:
+          - unique
+          - not_null
+      - name: client_id
+        data_tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('dim_clients')
+                field: client_id
+
+  - name: org_financials
+    description: >
+      CHI's organization-wide financials by fiscal year, sourced from public
+      IRS Form 990 filings via ProPublica Nonprofit Explorer. Public record.
+    columns:
+      - name: fiscal_year
+        data_tests:
+          - unique
+          - not_null
+
+models:
+  - name: stg_clients
+    description: Cleaned, typed client intake records.
+    columns:
+      - name: client_id
+        data_tests:
+          - unique
+          - not_null
+
+  - name: stg_visits
+    description: Cleaned, typed visit records.
+    columns:
+      - name: visit_id
+        data_tests:
+          - unique
+          - not_null
+      - name: client_id
+        data_tests:
+          - relationships:
+              arguments:
+                to: ref('stg_clients')
+                field: client_id
+
+  - name: stg_org_financials
+    description: Cleaned org-level financial history with derived ratios.
+    columns:
+      - name: fiscal_year
+        data_tests:
+          - unique
+          - not_null

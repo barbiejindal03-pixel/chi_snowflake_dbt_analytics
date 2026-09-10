@@ -1,0 +1,30 @@
+version: 2
+
+models:
+  - name: fct_program_operations
+    description: Monthly visit volume, client counts, and services delivered.
+    columns:
+      - name: activity_month
+        data_tests:
+          - unique
+          - not_null
+
+  - name: fct_org_financial_trends
+    description: >
+      Year-over-year revenue, expenses, and net-asset trend from CHI's
+      public 990 filings (2012-2025).
+    columns:
+      - name: fiscal_year
+        data_tests:
+          - unique
+          - not_null
+
+  - name: fct_cost_per_client_estimate
+    description: >
+      Cost-per-client-served and cost-per-visit estimate, using a
+      configurable expense-allocation assumption (see model SQL header
+      for the documented methodology and its limitations).
+    columns:
+      - name: cost_per_client_served
+        data_tests:
+          - not_null

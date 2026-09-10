@@ -1,0 +1,51 @@
+visit_id,client_id,visit_date,volunteer,resume_done,phone_given,bus_pass_given,service_category
+V-0001,CLIENT-037,2026-07-08,Volunteer_A,Unknown,0,0,Resume Not started
+V-0002,CLIENT-068,2026-06-10,Volunteer_A,Unknown,0,0,Phones Given
+V-0003,CLIENT-069,2026-01-28,Volunteer_B,Yes / Done,0,1,Resume done 
+V-0004,CLIENT-069,2026-01-28,Volunteer_C,Unknown,0,0,Resume in progress 
+V-0005,CLIENT-069,2026-03-03,Volunteer_C,Yes / Done,0,0,Bus Passes Given
+V-0006,CLIENT-069,2026-03-18,Volunteer_C,Unknown,0,0,Uncategorized
+V-0007,CLIENT-039,2026-06-03,Volunteer_B,Unknown,0,0,Uncategorized
+V-0008,CLIENT-056,2026-06-03,Volunteer_D,Unknown,0,0,Uncategorized
+V-0009,CLIENT-056,2026-07-08,Volunteer_C,Yes / Done,0,0,Uncategorized
+V-0010,CLIENT-001,2026-06-24,Volunteer_E,Unknown,0,1,Uncategorized
+V-0011,CLIENT-028,2026-05-13,Volunteer_A,Unknown,0,0,Uncategorized
+V-0012,CLIENT-018,2026-05-27,Volunteer_F,Unknown,0,0,Uncategorized
+V-0013,CLIENT-067,2026-06-10,Volunteer_C,Unknown,0,0,Uncategorized
+V-0014,CLIENT-025,2026-06-24,Volunteer_D,Unknown,0,0,Uncategorized
+V-0015,CLIENT-025,2026-07-01,Volunteer_F,Unknown,0,1,Uncategorized
+V-0016,CLIENT-013,2026-06-24,Volunteer_G,Unknown,0,0,Uncategorized
+V-0017,CLIENT-051,2026-07-01,Volunteer_A,In progress,0,0,Uncategorized
+V-0018,CLIENT-051,2026-07-08,Volunteer_F,Unknown,0,0,Uncategorized
+V-0019,CLIENT-040,2026-07-01,Volunteer_C,Yes / Done,0,0,Uncategorized
+V-0020,CLIENT-026,2026-07-08,Volunteer_B,Unknown,0,0,Uncategorized
+V-0021,CLIENT-026,2026-07-08,Volunteer_B,Yes / Done,0,0,Uncategorized
+V-0022,CLIENT-012,2026-07-08,Volunteer_A,Unknown,1,1,Uncategorized
+V-0023,CLIENT-027,2026-07-08,Volunteer_D,Yes / Done,1,1,Uncategorized
+V-0024,CLIENT-069,2026-01-21,Volunteer_C,Unknown,0,0,Uncategorized
+V-0025,CLIENT-069,2026-04-22,Volunteer_C,Unknown,0,0,Uncategorized
+V-0026,CLIENT-069,2026-06-17,Volunteer_C,Unknown,0,1,Uncategorized
+V-0027,CLIENT-051,2026-07-15,Volunteer_C,Yes / Done,0,0,Uncategorized
+V-0028,CLIENT-051,2026-07-15,Volunteer_C,Yes / Done,0,1,Uncategorized
+V-0029,CLIENT-064,2026-07-22,Volunteer_H,Yes / Done,1,0,Uncategorized
+V-0030,CLIENT-063,2026-07-22,Volunteer_I,Unknown,0,0,Uncategorized
+V-0031,CLIENT-037,2026-07-15,Volunteer_H,Unknown,1,1,Uncategorized
+V-0032,CLIENT-026,2026-07-22,Volunteer_J,Unknown,0,0,Uncategorized
+V-0033,CLIENT-004,2026-07-22,Volunteer_A,Yes / Done,0,1,Uncategorized
+V-0034,CLIENT-021,2026-02-01,Volunteer_A,Yes / Done,0,1,Uncategorized
+V-0035,CLIENT-038,2026-02-11,Volunteer_B,Yes / Done,0,1,Uncategorized
+V-0036,CLIENT-030,2026-02-18,Volunteer_F,Yes / Done,0,0,Uncategorized
+V-0037,CLIENT-025,2026-02-18,Volunteer_A,Unknown,0,0,Uncategorized
+V-0038,CLIENT-004,2026-07-29,Volunteer_A,Yes / Done,0,0,Uncategorized
+V-0039,CLIENT-064,2026-07-29,Volunteer_A,Unknown,0,0,Uncategorized
+V-0040,CLIENT-018,2026-07-29,Volunteer_F,Unknown,0,1,Uncategorized
+V-0041,CLIENT-056,2026-07-29,Volunteer_F,Unknown,0,0,Uncategorized
+V-0042,CLIENT-056,2026-07-29,Volunteer_C,Unknown,0,1,Uncategorized
+V-0043,CLIENT-056,2026-08-05,Volunteer_C,Unknown,0,1,Uncategorized
+V-0044,CLIENT-056,2026-08-12,Volunteer_E,Unknown,0,0,Uncategorized
+V-0045,CLIENT-056,2026-08-19,Volunteer_C,Unknown,0,1,Uncategorized
+V-0046,CLIENT-058,2026-08-19,Volunteer_F,Yes / Done,0,1,Uncategorized
+V-0047,CLIENT-007,2026-08-19,Volunteer_A,Yes / Done,0,1,Uncategorized
+V-0048,CLIENT-007,2026-08-27,Volunteer_A,Unknown,0,0,Uncategorized
+V-0049,CLIENT-062,2026-08-26,Volunteer_F,not yet / started,1,1,Uncategorized
+V-0050,CLIENT-062,2026-09-02,Volunteer_A,Unknown,0,1,Uncategorized

@@ -1,0 +1,33 @@
+name: 'chi_program_analytics'
+version: '1.0.0'
+config-version: 2
+
+profile: 'chi_program_analytics'
+
+model-paths: ["models"]
+seed-paths: ["seeds"]
+test-paths: ["tests"]
+macro-paths: ["macros"]
+
+target-path: "target"
+clean-targets:
+  - "target"
+  - "dbt_packages"
+
+vars:
+  # Public 990 filings report organization-wide totals, not per-program
+  # figures. This variable lets you sensitivity-test the cost-per-client
+  # metric under different assumptions about what share of CHI's total
+  # operating expenses the Job Room / Workplace Support program consumes.
+  # Documented explicitly rather than hidden -- change it and re-run to
+  # see how the unit-cost estimate moves.
+  job_room_expense_allocation_pct: 0.15
+
+models:
+  chi_program_analytics:
+    staging:
+      +materialized: view
+    intermediate:
+      +materialized: view
+    marts:
+      +materialized: table
