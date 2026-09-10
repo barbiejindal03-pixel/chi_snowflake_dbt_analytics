@@ -77,4 +77,4 @@ dbt docs generate && dbt docs serve
 
 ## Data & privacy
 
-Everything client-level here is anonymized: no names, contact info, addresses, or free-text notes, and IDs are re-issued so they can't be traced back to the source records. Financial numbers come from CHI's public IRS Form 990 filings (ProPublica Nonprofit Explorer, EIN 45-2542979), which is public record. Full details in [`scripts/anonymize_chi_data.py`](scripts/anonymize_chi_data.py).
+Everything client-level here is anonymized: no names, contact info, addresses, or free-text notes, and IDs are re-issued so they can't be traced back to the source records. Financial numbers come from CHI's public IRS Form 990 filings (ProPublica Nonprofit Explorer), which is public record. Full details in [`scripts/anonymize_chi_data.py`](scripts/anonymize_chi_data.py).
