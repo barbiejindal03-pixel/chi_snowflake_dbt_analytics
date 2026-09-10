@@ -1,4 +1,4 @@
-# CHI Program Analytics - Snowflake + dbt
+# CHI Program Analytics (using Snowflake, dbt)
 
 FP&A / operations analytics warehouse for a nonprofit client-services program. Replaces a manual spreadsheet tracking process with a tested Snowflake + dbt pipeline, and adds a cost-per-client-served metric on top of it.
 
