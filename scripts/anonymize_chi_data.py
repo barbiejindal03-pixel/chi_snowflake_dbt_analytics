@@ -2,7 +2,7 @@
 # data so this can actually go on GitHub. Quick rundown of what changes:
 # - names, emails, phones, addresses: gone completely
 # - free text fields (visit notes, "other specify"): gone completely,
-# - people write background/health/immigration stuff in there sometimes
+# - didn't want any open-ended case notes in a public repo
 # - SS card / birth cert / state ID: squashed into one 0-3 score instead
 #   of 3 separate yes/no columns, so no single doc status is exposed
 # - SNAP status: dropped, not touching benefits data at all
