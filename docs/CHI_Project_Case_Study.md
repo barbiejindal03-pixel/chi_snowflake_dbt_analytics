@@ -1,6 +1,6 @@
 # CHI Program Analytics - Project Case Study
 
-Notes on what I built, how, and why. Written up mainly so I have the details straight for interviews and for explaining it to CHI leadership.
+Notes on what I built, how, and why.
 
 ## 1. Where this started
 
@@ -87,7 +87,7 @@ Standard dbt layering (staging → intermediate → marts) instead of one big qu
 
 ## 7. Where AI helped
 
-I used Claude for a chunk of this: talking through the architecture before writing code, debugging real terminal errors as they came up, and as a second set of eyes on the SQL and Python. I wrote/ran everything myself and reviewed each piece before using it, but it's fair to say this project moved a lot faster with that help than it would have solo.
+I used Claude for a chunk of this: talking through the architecture before writing code, debugging real terminal errors as they came up, and as a second set of eyes on the SQL and Python. I wrote/ran everything and reviewed each piece before using it, but it's fair to say this project moved a lot faster with that help than it would have solo.
 
 ## 8. The FP&A metric and its limits
 
