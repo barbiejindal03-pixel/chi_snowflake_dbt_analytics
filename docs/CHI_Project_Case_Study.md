@@ -121,10 +121,5 @@ To check the allocation assumption doesn't produce arbitrary results, I reran th
 
 ## 10. What this shows
 
-For interviews: end-to-end pipeline ownership (messy source to tested, documented warehouse), privacy/governance judgment applied before any analysis, an FP&A cost model built on incomplete data with a documented and tested assumption instead of a black box number, and working knowledge of the Snowflake + dbt stack.
-
 For CHI leadership: I took the manual system I built for the Job Room program and modernized it in my own time, then used CHI's own public financial filings to show what cost per client actually looks like, with a transparent way to test that number if the expense allocation assumption changes. Worth being clear that CHI's live systems don't run on this stack, this is a personal project built on anonymized exports.
 
-## 11. Resume framing
-
-"Rebuilt a manual nonprofit client-tracking system as a tested Snowflake + dbt warehouse (21 automated data tests, auto-generated lineage docs); added FP&A unit-economics analysis (cost per client served, cost per visit) using the organization's public IRS filings, including a documented, sensitivity-tested cost-allocation methodology."
