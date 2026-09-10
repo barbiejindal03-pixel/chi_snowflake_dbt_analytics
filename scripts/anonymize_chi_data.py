@@ -1,9 +1,8 @@
 # Turns the real CLIENT MASTER + VISIT_LOG sheets into anonymized seed
 # data so this can actually go on GitHub. Quick rundown of what changes:
-#
 # - names, emails, phones, addresses: gone completely
 # - free text fields (visit notes, "other specify"): gone completely,
-#   people write background/health/immigration stuff in there sometimes
+# - people write background/health/immigration stuff in there sometimes
 # - SS card / birth cert / state ID: squashed into one 0-3 score instead
 #   of 3 separate yes/no columns, so no single doc status is exposed
 # - SNAP status: dropped, not touching benefits data at all
