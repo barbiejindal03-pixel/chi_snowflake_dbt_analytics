@@ -93,7 +93,7 @@ def main(xlsx_path):
             "document_readiness_score": doc_score,
         })
 
-    # ---- VISIT_LOG ----
+    #  VISIT_LOG 
     header_vl = [c.value for c in ws_vl[1]]
     idx_vl = {h.strip(): i for i, h in enumerate(header_vl) if h}
 
